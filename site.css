@@ -1,9 +1,13 @@
+html{
+    height: 100%;
+}
+
 body {
     background-image: linear-gradient(321deg, #733856 1%, #387874);
              background-repeat: no-repeat;
              background-attachment: fixed;
              height: 100%;
-			 overflow: auto;
+
 }
 
 a:hover { 
@@ -70,28 +74,17 @@ a:hover {
     color: #ffffff;
 }
 
-.privacy-policy {
-    background-color: #333333;
-    height: 100%;
-    color: white;
-    font-family: 'Signika Negative', sans-serif;
-    font-size: 13px;
-    font-weight: 100;
-    line-height: 1.7;
+#wrap {
+    padding: 0 0 80px;
+    position: relative;
+    min-height: 100%;
 }
 
-.privacy-policy h1 {
-    color: #f50057;
-    font-size: 20px;
+.footer {
+    bottom: 0;
+    height: 80px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    background-color: transparent;
 }
-
-.privacy-policy h2 {
-    color: #14c8c0;
-    font-size: 18px;
-}
-
-.privacy-policy h3 {
-    color: #14c8c0;
-    font-size: 16px;
-}
-
