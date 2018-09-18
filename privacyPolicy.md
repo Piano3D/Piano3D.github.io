@@ -1,50 +1,10 @@
-<!DOCTYPE HTML>
-<html>
+---
+layout: default
+title: Privacy Policy
+permalink: privacyPolicy.html
+---
 
-<head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118775151-1"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
-
-		gtag('config', 'UA-118775151-1');
-	</script>
-
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Privacy Policy - Piano 3D</title>
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-	 crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
-	 crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
-	 crossorigin="anonymous" />
-	<link href="https://fonts.googleapis.com/css?family=Signika+Negative" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="privacyPolicy.css">
-	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-	<link rel="canonical" href="https://piano3d.com/privacyPolicy.html" />
-</head>
-
-<body>
-
-	<div class="d-flex flex-column flex-sm-row align-items-center p-3 px-md-4 mb-3 mt-4 mt-sm-2">
-		<a class="mr-sm-auto" href="/">
-			<img src="logo.png" class="logo" />
-		</a>
-		<nav class="mt-5 mt-sm-0">
-			<a class="r-1" href="https://itunes.apple.com/us/app/piano-3d/id1402994766?ls=1&mt=8">
-				<img src="appStore.png" class="logo" />
-			</a>
-
-			<a href="https://play.google.com/store/apps/details?id=com.MobilrKingdom.Piano3D">
-				<img src="googleStore.png" class="logo" />
-			</a>
-	</div>
-
-	<div class="container col-10 col-md-6 privacy-policy p-4">
+<div class="container col-10 col-md-6 privacy-policy p-4">
 		<h1 class="mt-2 mb-3">PRIVACY POLICY FOR PIANO 3D APPLICATION</h1>
 		<p>
 			This page is used to inform the application users regarding our policies with the collection, use, and disclosure of Personal
@@ -55,7 +15,6 @@
 			The Personal Information that we collect is used for providing and improving the application. We will not use or share
 			your information with anyone except as described in this Privacy Policy.
 		</p>
-
 		<h3>Information Collection and Use</h3>
 		<p>
 			For a better experience, while using our Service, we may require you to provide us with certain personally identifiable information.
@@ -64,7 +23,6 @@
 		<p>
 			The app does use third party services that may collect information used to identify you.
 		</p>
-
 		<h3>Log Data</h3>
 		<p>
 			We want to inform you that whenever you use our app, in a case of an error we collect data and information (through third
@@ -72,7 +30,6 @@
 			(“IP”) address, device name, operating system version, the configuration of the app when utilizing our Service, the time
 			and date of your use of the app, and other statistics.
 		</p>
-
 		<h3>Links to Other Sites</h3>
 		<p>
 			This application may contain links to other sites. If you click on a third-party link, you will be directed to that site.
@@ -80,7 +37,6 @@
 			of these websites. We have no control over and assume no responsibility for the content, privacy policies, or practices
 			of any third-party sites or services.
 		</p>
-
 		<h3>
 			Changes to This Privacy Policy
 		</h3>
@@ -89,14 +45,10 @@
 			We will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately
 			after they are posted on this page.
 		</p>
-
 		<h3>
 			Contact Us
 		</h3>
 		<p>
 			If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us: info@piano3d.com.
 		</p>
-	</div>
-</body>
-
-</html>
+</div>
