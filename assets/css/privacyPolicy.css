@@ -67,7 +67,7 @@ a:hover {
     height: 100%;
     color: white;
     font-family: 'Signika Negative', sans-serif;
-    font-size: 13px;
+    font-size: 17px;
     font-weight: 100;
     line-height: 1.7;
 }
@@ -85,6 +85,10 @@ a:hover {
 .privacy-policy h3 {
     color: #14c8c0;
     font-size: 16px;
+}
+
+.contrastGreen {
+    color: #14c8c0;
 }
 
 .smm-icon{
