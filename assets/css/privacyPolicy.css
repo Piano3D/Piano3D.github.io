@@ -105,3 +105,8 @@ a:hover {
     text-align: left;
     color: #ffffff;
 }
+
+.description h1,h2 {
+    color: white;
+    font-size: 28px;
+}
