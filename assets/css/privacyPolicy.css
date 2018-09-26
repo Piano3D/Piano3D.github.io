@@ -16,8 +16,11 @@ h1 {
     font-size: 18px;
 }
 
-p a{
+a {
     color: white;
+}
+
+p a{
     text-decoration: underline;
 }
 
@@ -71,10 +74,7 @@ a:hover {
     background-color: #333333;
     height: 100%;
     color: white;
-    font-family: 'Signika Negative', sans-serif;
     font-size: 17px;
-    font-weight: 100;
-    line-height: 1.7;
 }
 
 .privacy-policy h1 {
@@ -141,4 +141,44 @@ ul > li > span {
     width: 100%;
     height: 100%;
     border: 0;
+}
+
+.post {
+    background-color: #333333;
+    height: 100%;
+    color: white;
+    font-size: 17px;
+}
+
+.post h1 a{
+    color: #f50057;
+    font-size: 20px;
+}
+
+.post h1 {
+    margin-bottom: 0px;
+    font-size: 20px;
+    color: #f50057;
+}
+
+.post h2 {
+    color: #14c8c0;
+    font-size: 18px;
+}
+
+.post-date {
+    font-size: 10px;
+    color: #aaaaaa;
+}
+
+span.pagination-item {
+    color: #aaaaaa;
+}
+
+.content a, a.pagination-item {
+    text-decoration: underline;
+}
+
+.continue-reading {
+    color: #14c8c0;
 }

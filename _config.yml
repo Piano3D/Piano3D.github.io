@@ -7,6 +7,8 @@ highlighter:      rouge
 # Permalinks
 permalink:        /posts/:title/
 
+paginate_path: "/blog/page:num/"
+
 # User Configuration
 title:            'Piano 3D'
 tagline:          'a piano app for IPhone and Android'
@@ -23,3 +25,7 @@ gems:
 
 # Version Info
 version:          0.0.5
+
+author:
+  name: 'Alex Sikilinda'
+  email: 'alex.sikilinda@gmail.com'
