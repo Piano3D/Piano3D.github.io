@@ -1,36 +1,60 @@
----
-layout: null
----
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>{{ site.title }}</title>
- <link href="{{ site.url }}/atom.xml" rel="self"/>
- <link href="{{ site.url }}/"/>
- <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>{{ site.url }}</id>
+ <title>Piano 3D</title>
+ <link href="https://piano3d.com/atom.xml" rel="self"/>
+ <link href="https://piano3d.com/"/>
+ <updated>2018-10-03T05:26:46+03:00</updated>
+ <id>https://piano3d.com</id>
  <author>
-   <name>{{ site.author.name }}</name>
-   <email>{{ site.author.email }}</email>
+   <name>Alex Sikilinda</name>
+   <email>alex.sikilinda@gmail.com</email>
  </author>
 
- {% for post in site.posts %}
+ 
  <entry>
-   <title>{{ post.title }}</title>
-   <link href="{{ site.url }}{{ post.url }}"/>
-   <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>{{ site.url }}{{ post.id }}</id>
+   <title>БЛОГ PIANO 3D ЗАПУЩЕН!</title>
+   <link href="https://piano3d.com/piano-3d-blog-zapushchen/"/>
+   <updated>2018-09-26T03:22:00+03:00</updated>
+   <id>https://piano3d.com/piano-3d-blog-zapushchen</id>
    <content type="html">
-     {{ post.excerpt | xml_escape }}
+     &lt;p&gt;Привет! Мы запустили новый блог Piano 3D. Раньше я писал о Piano 3D на &lt;a href=&quot;https://sikilinda.com&quot;&gt;моем личном сайте&lt;/a&gt;, но отдельный блог это явно более подходящий формат, который позволит писать о всех новостях связанных с приложением. Именно поэтому в дополнение к социальным сетям Piano 3D (&lt;a href=&quot;https://facebook.com/piano3d&quot;&gt;Facebook&lt;/a&gt;, &lt;a href=&quot;https://instagram.com/piano3dapp&quot;&gt;Instagram&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/piano3d&quot;&gt;Twitter&lt;/a&gt;, &lt;a href=&quot;https://www.youtube.com/channel/UC9MOkgEEoZUGpnM8B3MsYeA&quot;&gt;YouTube&lt;/a&gt;) у нас появилось это место.&lt;/p&gt;
+
+&lt;p&gt;Я надеюсь что этот блог будет интересен разным людям, которых объединяет любовь к музыке. Мы собираемся обсудить как признанные классическими произведения,так и новые популярные песни; обычные музыкальные инструменты и новые цифровые и аналоговые синтезаторы, ADSR фильтры и теорию музыки. И, конечно, мы не забудем про Piano 3D.&lt;/p&gt;
+
+&lt;p&gt;Что думаете?&lt;/p&gt;
+
 
      &lt;br&gt;
 
-     &lt;a href="{{ site.url }}{{ post.url }}"&gt;
+     &lt;a href="https://piano3d.com/piano-3d-blog-zapushchen/"&gt;
          Read entire post...
      &lt;/a&gt;
 
    </content>
  </entry>
- {% endfor %}
+ 
+ <entry>
+   <title>PIANO 3D BLOG IS NOW LIVE!</title>
+   <link href="https://piano3d.com/piano-3d-blog-is-now-live/"/>
+   <updated>2018-09-26T03:22:00+03:00</updated>
+   <id>https://piano3d.com/piano-3d-blog-is-now-live</id>
+   <content type="html">
+     &lt;p&gt;Hi! We have launched new Piano 3D blog. Yay! I used to blog about Piano 3D in my &lt;a href=&quot;https://sikilinda.com&quot;&gt;development blog&lt;/a&gt;, but I realized that there is much more information I could share with you, and it is not limited to the development process only. That is why, as an addition to Piano 3D social media (&lt;a href=&quot;https://facebook.com/piano3d&quot;&gt;Facebook&lt;/a&gt;, &lt;a href=&quot;https://instagram.com/piano3dapp&quot;&gt;Instagram&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/piano3d&quot;&gt;Twitter&lt;/a&gt;, &lt;a href=&quot;https://www.youtube.com/channel/UC9MOkgEEoZUGpnM8B3MsYeA&quot;&gt;YouTube&lt;/a&gt;) we now have this place.&lt;/p&gt;
+
+&lt;p&gt;I would really like to build a community around Piano 3D, and I believe this place is essential for achieving this goal. But this blog will not be dedicated to Piano 3D entirely. In fact, I want it to be about piano and music in general. We are going to discuss very old classical music as well as new pop songs, classical instruments and new fancy synthesizers, ADSR filters and music theory. And, of course, we will not forget about Piano 3D.&lt;/p&gt;
+
+&lt;p&gt;I am very excited about this! Aren’t you?&lt;/p&gt;
+
+
+     &lt;br&gt;
+
+     &lt;a href="https://piano3d.com/piano-3d-blog-is-now-live/"&gt;
+         Read entire post...
+     &lt;/a&gt;
+
+   </content>
+ </entry>
+ 
 
 </feed>
