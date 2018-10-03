@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Help
+locale: en
+handle: /help/
 ---
 
 <!--<div calss="container">

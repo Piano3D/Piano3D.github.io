@@ -35,4 +35,14 @@
 	<meta name="description" content="Official site of Piano 3D mobile application. Practice, learn new songs, sing along and just have fun with Piano 3D on your iOS or Android device.">
 
 	<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+
+	{% assign posts=site.posts | where:"handle", page.handle | sort: 'locale' %}
+{% for post in posts %}
+  <link rel="alternate" hreflang="{{ post.locale }}" href="{{ post.url }}" />
+{% endfor %}
+{% assign pages=site.pages | where:"handle", page.handle | sort: 'locale' %}
+{% for page in pages %}
+  <link rel="alternate" hreflang="{{ page.locale }}" href="{{ page.url }}" />
+{% endfor %}
+
 </head>

@@ -102,7 +102,6 @@ a:hover {
 
 .footer-text {
     font-size: 14px;
-    font-weight: 100;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.44;
@@ -181,4 +180,8 @@ span.pagination-item {
 
 .continue-reading {
     color: #14c8c0;
+}
+
+.locale-link {
+    text-transform: uppercase;
 }

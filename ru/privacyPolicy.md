@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Privacy Policy
-locale: en
+locale: ru
 handle: /privacyPolicy/
 ---
 

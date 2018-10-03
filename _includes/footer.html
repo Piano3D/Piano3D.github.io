@@ -1,7 +1,7 @@
 <footer class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
 	<div class="navbar-nav-scroll">
-    	<ul class="navbar-nav bd-navbar-nav flex-row">
-      		<li class="nav-item">
+		<ul class="navbar-nav bd-navbar-nav flex-row">
+			<li class="nav-item">
 				<a class="nav-link" href="https://twitter.com/piano3d" target="_blank" rel="noopener" aria-label="GitHub">
 					<img src="/public/images/twitter.png" class="smm-icon" />
 				</a>
@@ -12,8 +12,9 @@
 				</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="https://www.youtube.com/channel/UC9MOkgEEoZUGpnM8B3MsYeA" target="_blank" rel="noopener" aria-label="Twitter">
-						<img src="/public/images/youtube.png" class="smm-icon" />
+				<a class="nav-link" href="https://www.youtube.com/channel/UC9MOkgEEoZUGpnM8B3MsYeA" target="_blank" rel="noopener"
+				 aria-label="Twitter">
+					<img src="/public/images/youtube.png" class="smm-icon" />
 				</a>
 			</li>
 			<li class="nav-item">
@@ -21,23 +22,62 @@
 					<img src="/public/images/instagram.png" class="smm-icon" />
 				</a>
 			</li>
-    	</ul>
-  	</div>
+		</ul>
+	</div>
 	<ul class="navbar-nav flex-row ml-md-auto d-md-flex">
 		<li class="nav-item">
 			<a class="nav-link footer-text" href="mailto:info@piano3d.com" target="_blank" rel="noopener">
 				info@piano3d.com
 			</a>
 		</li>
+		{% if page.locale == "en" %}
 		<li class="nav-item">
-			<a class="nav-link footer-text" href="/pressKit" rel="noopener">
+			<a class="nav-link footer-text" href="/pressKit/" rel="noopener">
 				Press Kit
 			</a>
 		</li>
 		<li class="nav-item">
-			<a class="nav-link footer-text" href="/privacyPolicy" rel="noopener">
+			<a class="nav-link footer-text" href="/privacyPolicy/" rel="noopener">
 				Privacy Policy
 			</a>
 		</li>
+		{% else %}
+		<li class="nav-item">
+			<a class="nav-link footer-text" href="/{{ page.locale }}/pressKit/" rel="noopener">
+				{{ site.pressKit[page.locale] }}
+			</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link footer-text" href="/{{ page.locale }}/privacyPolicy/" rel="noopener">
+				{{ site.privacyPolicy[page.locale] }}
+			</a>
+		</li>
+		{% endif %}
+	</ul>
+	<ul class="navbar-nav flex-row ml-md-auto d-md-flex footer-text">
+		{% if page.id %}
+			{% assign posts=site.posts | where:"handle", page.handle | sort: 'locale' %}
+			{% for post in posts %}
+			<li class="nav-item locale-link">
+				<a href="{{ post.url }}" class="nav-link">{{ post.locale }}</a>
+			</li>
+			{% endfor %}
+		{% else %}
+		{% if page.name contains "index" and page.handle != "/blog/" %}
+		<li class="nav-item">
+			<a class="nav-link" href="{{ site.url }}/">EN</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="{{ site.url | append: "/ru" }}">RU</a>
+		</li>
+		{% else %}
+		<li class="nav-item">
+			<a class="nav-link" href="{{ site.url | append: page.handle }}">EN</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="{{ site.url | append: "/ru" | append: page.handle }}">RU</a>
+		</li>
+		{% endif %}
+		{% endif %}
 	</ul>
 </footer>

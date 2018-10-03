@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Press Kit
+locale: en
+handle: /pressKit/
 ---
 
 <div class="container">
