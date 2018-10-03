@@ -46,6 +46,14 @@ privacyPolicy:
   en: Privacy Policy
   ru: Политика конфиденциальности
 
+description:
+  en: Official site of Piano 3D mobile application. Practice, learn new songs, sing along and just have fun with Piano 3D on your iOS or Android device.
+  ru: Официальный сайт мобильного приложения Piano 3D. Практикуйся, учи новые мелодии, песни и произведения без нот. Скачай Piano 3D на iPhone или Android.
+
+keywords:
+  en: Piano,piano3d,Android,iOS,iPhone,Sound,Music,Guitar,Sax,Notes,Tutorials,Download
+  ru: Пианино,фортепиано,piano3d,piano,ios,android,iphone,ноты,tutorials
+
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
