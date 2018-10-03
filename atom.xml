@@ -4,13 +4,111 @@
  <title>Piano 3D</title>
  <link href="https://piano3d.com/atom.xml" rel="self"/>
  <link href="https://piano3d.com/"/>
- <updated>2018-10-03T05:26:46+03:00</updated>
+ <updated>2018-10-03T14:38:00+03:00</updated>
  <id>https://piano3d.com</id>
  <author>
    <name>Alex Sikilinda</name>
    <email>alex.sikilinda@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>ДНЕВНИКИ РАЗРАБОТКИ PIANO 3D - ЭПИЗОД 2: ЦВЕТА КЛАВИАТУРЫ</title>
+   <link href="https://piano3d.com/dnevniki-razrabotki-piano3d-episod2-smena-cveta/"/>
+   <updated>2018-10-03T03:23:00+03:00</updated>
+   <id>https://piano3d.com/dnevniki-razrabotki-piano3d-episod2-smena-cveta</id>
+   <content type="html">
+     &lt;p&gt;Второй эпизод дневников разработки (первый &lt;a href=&quot;/dnevniki-razrabotki-piano3d-episod1&quot;&gt;вот тут&lt;/a&gt;). В этом эпизоде мы добавляем возможность изменения цвета клавиатуры, что должно добавить красок в Piano 3D.&lt;/p&gt;
+
+&lt;p&gt;Что вы думаете об этой функции? Пишите в комментариях.&lt;/p&gt;
+
+&lt;div class=&quot;videowrapper&quot;&gt;
+&lt;iframe src=&quot;https://www.youtube.com/embed/QvkE91XSvLc&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+
+     &lt;br&gt;
+
+     &lt;a href="https://piano3d.com/dnevniki-razrabotki-piano3d-episod2-smena-cveta/"&gt;
+         Read entire post...
+     &lt;/a&gt;
+
+   </content>
+ </entry>
+ 
+ <entry>
+   <title>PIANO 3D DEVELOPMENT DIARY - EPISODE 2: KEYBOARD COLORS</title>
+   <link href="https://piano3d.com/piano3d-development-diary-episode2-keyboard-colors/"/>
+   <updated>2018-10-03T03:23:00+03:00</updated>
+   <id>https://piano3d.com/piano3d-development-diary-episode2-keyboard-colors</id>
+   <content type="html">
+     &lt;p&gt;As you may have seen, we have some Piano 3D development posts here (check &lt;a href=&quot;/piano-3d-development-diary-episode1&quot;&gt;development diary episode 1&lt;/a&gt;). This is second episode in which I add color-changing feature.&lt;/p&gt;
+
+&lt;p&gt;Of course, you are encouraged to comment what you think about changing color of the keyboard as well as Piano 3D app in general.&lt;/p&gt;
+
+&lt;div class=&quot;videowrapper&quot;&gt;
+&lt;iframe src=&quot;https://www.youtube.com/embed/QvkE91XSvLc&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+
+     &lt;br&gt;
+
+     &lt;a href="https://piano3d.com/piano3d-development-diary-episode2-keyboard-colors/"&gt;
+         Read entire post...
+     &lt;/a&gt;
+
+   </content>
+ </entry>
+ 
+ <entry>
+   <title>ДНЕВНИКИ РАЗРАБОТКИ PIANO 3D - ЭПИЗОД 1</title>
+   <link href="https://piano3d.com/dnevniki-razrabotki-piano3d-episod1/"/>
+   <updated>2018-10-03T03:22:00+03:00</updated>
+   <id>https://piano3d.com/dnevniki-razrabotki-piano3d-episod1</id>
+   <content type="html">
+     &lt;p&gt;В детстве (ну ладно, ладно, сейчас тоже) я довольно часто смотрел передачу “Как это делается?” (англ. How it is made?) на канале Discovery. Процесс создания чего-либо, на удивление, может приковать взгляд на довольно большое время. Так почему бы не сделать что-то похожее для Piano 3D? Не Discovery конечно, но тоже довольно увлекательно.&lt;/p&gt;
+
+&lt;p&gt;Примерно такие рассуждения привели к идее создания “Дневников разработки”, серии из коротких, ускоренных видео, в которых показан процесс создания и улучшения Piano 3D. В первом выпуске я расширяю клавиатуру до 88 клавиш, создаю отличающуюся от других клавишу Ля субконтроктавы в Блендере и соединяю все это в Unity 3D и Visual Studio. Ну конечно, знать эти слова совершенно не нужно, достаточно посмотреть видео и скачать Piano 3D на свой телефон (ну и подписаться на &lt;a href=&quot;https://www.youtube.com/channel/UC9MOkgEEoZUGpnM8B3MsYeA&quot;&gt;ютуб канал&lt;/a&gt;, конечно же).&lt;/p&gt;
+
+&lt;div class=&quot;videowrapper&quot;&gt;
+&lt;iframe src=&quot;https://www.youtube.com/embed/gko9AnC7z3E&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+
+     &lt;br&gt;
+
+     &lt;a href="https://piano3d.com/dnevniki-razrabotki-piano3d-episod1/"&gt;
+         Read entire post...
+     &lt;/a&gt;
+
+   </content>
+ </entry>
+ 
+ <entry>
+   <title>PIANO 3D DEVELOPMENT DIARY - EPISODE 1</title>
+   <link href="https://piano3d.com/piano3d-development-diary-episode1/"/>
+   <updated>2018-10-03T03:22:00+03:00</updated>
+   <id>https://piano3d.com/piano3d-development-diary-episode1</id>
+   <content type="html">
+     &lt;p&gt;I think it’s fun to see how an applciation is created (haven’t you seen Discovery’s “How it is made?”), so here is a speeded up video of Piano 3D development. It shows extending the keyboard to 88 keys, modelling the first “A” key (it’s shape is different) in blender and mixing everything together in Unity 3D and Visual Studio. But you don’t have to understand everything here. Don’t forget to subscribe to &lt;a href=&quot;https://www.youtube.com/channel/UC9MOkgEEoZUGpnM8B3MsYeA&quot;&gt;Piano 3D youtube channel&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;videowrapper&quot;&gt;
+&lt;iframe src=&quot;https://www.youtube.com/embed/gko9AnC7z3E&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+
+     &lt;br&gt;
+
+     &lt;a href="https://piano3d.com/piano3d-development-diary-episode1/"&gt;
+         Read entire post...
+     &lt;/a&gt;
+
+   </content>
+ </entry>
  
  <entry>
    <title>БЛОГ PIANO 3D ЗАПУЩЕН!</title>
