@@ -6,7 +6,7 @@ locale: en
 handle: /piano-3d-development-diary-episode2-keyboard-colors
 ---
 
-As you may have seen, we have some Piano 3D development posts here (check [development diary episode 1](/piano-3d-development-diary-episode1)). This is second episode in which I add color-changing feature.
+As you may have seen, we have some Piano 3D development posts here (check [development diary episode 1](/piano3d-development-diary-episode1)). This is second episode in which I add color-changing feature.
 
 Of course, you are encouraged to comment what you think about changing color of the keyboard as well as Piano 3D app in general.   
 
