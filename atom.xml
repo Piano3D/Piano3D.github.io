@@ -4,7 +4,7 @@
  <title>Piano 3D</title>
  <link href="https://piano3d.com/atom.xml" rel="self"/>
  <link href="https://piano3d.com/"/>
- <updated>2018-10-06T15:28:45+03:00</updated>
+ <updated>2018-10-08T15:15:18+03:00</updated>
  <id>https://piano3d.com</id>
  <author>
    <name>Alex Sikilinda</name>
@@ -43,7 +43,7 @@
    <updated>2018-10-03T03:23:00+03:00</updated>
    <id>https://piano3d.com/piano3d-development-diary-episode2-keyboard-colors</id>
    <content type="html">
-     &lt;p&gt;As you may have seen, we have some Piano 3D development posts here (check &lt;a href=&quot;/piano-3d-development-diary-episode1&quot;&gt;development diary episode 1&lt;/a&gt;). This is second episode in which I add color-changing feature.&lt;/p&gt;
+     &lt;p&gt;As you may have seen, we have some Piano 3D development posts here (check &lt;a href=&quot;/piano3d-development-diary-episode1&quot;&gt;development diary episode 1&lt;/a&gt;). This is second episode in which I add color-changing feature.&lt;/p&gt;
 
 &lt;p&gt;Of course, you are encouraged to comment what you think about changing color of the keyboard as well as Piano 3D app in general.&lt;/p&gt;
 
