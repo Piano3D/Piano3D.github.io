@@ -4,13 +4,63 @@
  <title>Piano 3D</title>
  <link href="https://piano3d.com/atom.xml" rel="self"/>
  <link href="https://piano3d.com/"/>
- <updated>2018-10-08T15:15:18+03:00</updated>
+ <updated>2018-10-09T02:07:33+03:00</updated>
  <id>https://piano3d.com</id>
  <author>
    <name>Alex Sikilinda</name>
    <email>alex.sikilinda@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>PIANO 3D V1.1 ДОСТУПНА ДЛЯ ЗАГРУЗКИ!</title>
+   <link href="https://piano3d.com/piano3d-versiya-1dot1-dostupna/"/>
+   <updated>2018-10-08T03:01:00+03:00</updated>
+   <id>https://piano3d.com/piano3d-versiya-1dot1-dostupna</id>
+   <content type="html">
+     &lt;p&gt;&lt;img src=&quot;/public/images/synthSettings.jpg&quot; alt=&quot;synthesizer settings in piano 3d&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Мы выпустили новую версию Piano 3D с номером 1.1. Она будет автоматически обнавлена на ваших устройствах, но если ждать невмоготу, то можно обновиться и через магазин приложений. Итак, что же нового?&lt;/p&gt;
+
+&lt;h2&gt;Синтезатор&lt;/h2&gt;
+
+&lt;p&gt;Piano 3D v1.1 добавляет новый звук, а точнее целую систему - &lt;i&gt;программный синтезатор&lt;/i&gt;. Он состоит из генератора сигнала, апмлитудного и нескольких частотных модуляторв и ADSR фильтра. У нас будет целый блог с объяснением всего этого, но уже сейчас можно его “пощупать” в приложении.&lt;/p&gt;
+
+
+
+     &lt;br&gt;
+
+     &lt;a href="https://piano3d.com/piano3d-versiya-1dot1-dostupna/"&gt;
+         Read entire post...
+     &lt;/a&gt;
+
+   </content>
+ </entry>
+ 
+ <entry>
+   <title>PIANO 3D V1.1 RELEASED FOR IPHONE AND ANDROID</title>
+   <link href="https://piano3d.com/piano3d-version-1dot1-released/"/>
+   <updated>2018-10-08T03:01:00+03:00</updated>
+   <id>https://piano3d.com/piano3d-version-1dot1-released</id>
+   <content type="html">
+     &lt;p&gt;&lt;img src=&quot;/public/images/synthSettings.jpg&quot; alt=&quot;synthesizer settings in piano 3d&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hi, we have just released a new version of Piano 3D app. It will be automatically updated on your devices, but if you don’t want to wait, you can update it manually from the AppStore or Play Store. So what’s new?&lt;/p&gt;
+
+&lt;h2&gt;Synthesizer&lt;/h2&gt;
+
+&lt;p&gt;Piano 3D v1.1 introduces a new sound, which, in fact, is much more than a regular sound. It is a &lt;i&gt;software synthesizer&lt;/i&gt; with Amplitude and Frequency modulators, ADSR filter and three signal generators. There will be a whole blog post about this with in-depth overview later. But you already can use it by selecting “Synthesizer” sound in the sounds menu.&lt;/p&gt;
+
+
+
+     &lt;br&gt;
+
+     &lt;a href="https://piano3d.com/piano3d-version-1dot1-released/"&gt;
+         Read entire post...
+     &lt;/a&gt;
+
+   </content>
+ </entry>
  
  <entry>
    <title>ДНЕВНИКИ РАЗРАБОТКИ PIANO 3D - ЭПИЗОД 2: ЦВЕТА КЛАВИАТУРЫ</title>

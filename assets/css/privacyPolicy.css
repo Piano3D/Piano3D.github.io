@@ -82,7 +82,7 @@ a:hover {
     font-size: 20px;
 }
 
-.privacy-policy h2 {
+h2 {
     color: #14c8c0;
     font-size: 18px;
 }
@@ -184,4 +184,9 @@ span.pagination-item {
 
 .locale-link {
     text-transform: uppercase;
+}
+
+img {
+    display: block;
+    max-width: 100%;
 }
