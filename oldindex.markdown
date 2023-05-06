@@ -1,0 +1,89 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: default
+---
+
+<div class="container">
+  <div class="row justify-content-center" id="mainContent">
+    <div class="col-11 col-sm-10 description">
+      <div class="row mb-5">
+        <div class="col-12 col-sm-6">
+          <img
+            class="img-fluid"
+            src="/public/images/MainScreen2.png"
+            alt="piano 3d main screen iphone"
+          />
+        </div>
+        <div class="col-12 col-sm-6 align-self-center text-center text-sm-start">
+          <h1>Piano 3D</h1>
+          <p>
+            A piano app with full size, 88-keys keyboard which you can scroll,
+            scale and, obviously, play.
+          </p>
+        </div>
+      </div>
+      <div class="row mb-5">
+        <div
+          class="col-12 col-sm-6 align-self-center text-right order-2 order-sm-1 text-center text-sm-end"
+        >
+          <h2>Piano tutorials</h2>
+          <p>
+            Learn and practice your favorites melodies, including pop and rock
+            songs, national anthems, movies soundtracks or even some jazz.
+          </p>
+        </div>
+        <div class="col-12 col-sm-6 order-1 order-sm-2">
+          <img
+            class="img-fluid"
+            src="/public/images/songs-menu.png"
+            alt="piano 3d songs menu"
+          />
+        </div>
+      </div>
+      <div class="row mb-5">
+        <div class="col-12 col-sm-6">
+          <img
+            class="img-fluid"
+            src="/public/images/settingsMenu.png"
+            alt="piano 3d settings menu"
+          />
+        </div>
+        <div class="col-12 col-sm-6 align-self-center text-center text-sm-start">
+          <h2>Settings</h2>
+          <p>
+            Switch between 2D and 3D mode, display and hide the notes names and
+            change keys color.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div
+          class="col-12 col-sm-6 align-self-center order-2 order-sm-1 text-center text-sm-end"
+        >
+          <h2>Get the app</h2>
+          <p>
+            Download <i>Piano 3D</i> on your iPhone or Android device from
+            <a
+              href="https://itunes.apple.com/us/app/piano-3d/id1402994766?ls=1&amp;mt=8"
+              >Apple AppStore</a
+            >
+            or
+            <a
+              href="https://play.google.com/store/apps/details?id=com.MobilrKingdom.Piano3D"
+              >Google PlayStore</a
+            >.
+          </p>
+        </div>
+        <div class="col-12 col-sm-6 order-1 order-sm-2">
+          <img
+            class="img-fluid"
+            src="/public/images/sounds-menu.png"
+            alt="piano 3d sound selection menu"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

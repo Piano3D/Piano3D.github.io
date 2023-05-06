@@ -1,308 +1,49 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default
+title: Home
+---
 
-    <head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118775151-1"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
-
-		gtag('config', 'UA-118775151-1');
-	</script>
-
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  
-  <title>
-    
-      Blog
-    
-  </title>
-  
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css?family=Signika+Negative" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="/assets/css/privacyPolicy.css">
-	<link rel="icon" type="image/png" sizes="32x32" href="/public/images/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/public/images/favicon-16x16.png">
-	
-	<meta name="keywords" content="Piano,piano3d,Android,iOS,iPhone,Sound,Music,Guitar,Sax,Notes,Tutorials,Download">
-	<meta name="description" content="Official site of Piano 3D mobile application. Practice, learn new songs, sing along and just have fun with Piano 3D on your iOS or Android device.">
-
-	<link rel="canonical" href="https://piano3d.com/blog/">
-
-	
-
-
-
-  <link rel="alternate" hreflang="en" href="/blog/index.html">
-
-  <link rel="alternate" hreflang="ru" href="/ru/blog/index.html">
-
-
-</head>
-
-    <body>
-      <header class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
-	
-	<a class="navbar-brand mr-0 mr-md-2" href="/">
-		<img src="/public/images/logo.png" class="logo">
-	</a>
-	<div class="navbar-nav-scroll">
-		<ul class="navbar-nav bd-navbar-nav flex-row">
-			<li class="nav-item">
-				<a class="nav-link" href="/blog" rel="noopener">Blog</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="/help" rel="noopener">Help</a>
-			</li>
-		</ul>
-	</div>
-	
-	<ul class="navbar-nav flex-row ml-md-auto d-md-flex">
-		<li class="nav-item">
-			<a class="nav-link" href="https://itunes.apple.com/us/app/piano-3d/id1402994766?ls=1&amp;mt=8" target="_blank" rel="noopener" onclick="gtag('event', 'appStoreClick');">
-				<img src="/public/images/appStore.png" class="logo">
-			</a>
-		</li>
-		<li class="nav-item">
-			<a class="nav-link" href="https://play.google.com/store/apps/details?id=com.MobilrKingdom.Piano3D" target="_blank" rel="noopener" onclick="gtag('event', 'playStoreClick');">
-				<img src="/public/images/googleStore.png" class="logo" onclick="gtag('event', 'googleStoreClick');">
-			</a>
-		</li>
-	</ul>
-</header>
-
-      <div class="posts">
-  
+<main class="posts">
+  {% for post in paginator.posts %}
 
   <article class="post container col-10 col-md-6 p-4 mb-5">
     <h1 class="post-title">
-      <a href="/twenty-one-pilots-new-trench-album-in-piano-3d/">
-        TWENTY ONE PILOTS NEW TRENCH ALBUM IN PIANO 3D
-      </a>
+      <a href="{{ post.url }}"> {{ post.title }} </a>
     </h1>
     <div class="mb-3">
-      <span class="post-date">12 Oct 2018</span>
+      <span class="post-date">{{ post.date | date_to_string }}</span>
     </div>
 
-    <div class="content">
-      <div class="container mb-4">
-  <div class="row justify-content-center">
-    <div class="col-12 col-md-8">
-      <img src="/public/images/trench-cover.jpg" alt="twenty one pitlos trench album cover">
-    </div>
-  </div>
-</div>
+    {{ post.excerpt }}
 
-<p>Tyler Joseph and Josh Dun (a.k.a. Twenty One Pilots) released recently their fifth, long-awaited album called Trench.</p>
+    <br />
 
-<p>They spent last year in a hiatus with all social network accounts completely silent. The only way to get any idea about the upcoming album was a mysterious site <a href="http://dmaorg.info/">dmaorg.info</a>, which had some puzzles you can solve and get some info about this even more mysterious fictional universe (kind of a place where all songs take place). You can read more about it on <a href="https://www.reddit.com/r/twentyonepilots/">twenty one pilots reddit</a>.</p>
-
-<p>Anyway, the album was released with 14 songs, and you can learn how to play 12 of them in Piano 3D. Yay! You can find the album in Piano 3D by going “PLAYLISTS” &gt; “TRENCH” or using search.</p>
-
-
-
-      <br>
-
-      <a href="/twenty-one-pilots-new-trench-album-in-piano-3d/" class="continue-reading">
-        Continue reading
-      </a>
-    </div>
+    <a href="{{ post.url }}">Continue reading</a>
   </article>
-  
 
-  <article class="post container col-10 col-md-6 p-4 mb-5">
-    <h1 class="post-title">
-      <a href="/piano3d-version-1dot1-released/">
-        PIANO 3D V1.1 RELEASED FOR IPHONE AND ANDROID
-      </a>
-    </h1>
-    <div class="mb-3">
-      <span class="post-date">08 Oct 2018</span>
-    </div>
-
-    <div class="content">
-      <p><img src="/public/images/synthSettings.jpg" alt="synthesizer settings in piano 3d"></p>
-
-<p>Hi, we have just released a new version of Piano 3D app. It will be automatically updated on your devices, but if you don’t want to wait, you can update it manually from the AppStore or Play Store. So what’s new?</p>
-
-<h2>Synthesizer</h2>
-
-<p>Piano 3D v1.1 introduces a new sound, which, in fact, is much more than a regular sound. It is a <i>software synthesizer</i> with Amplitude and Frequency modulators, ADSR filter and three signal generators. There will be a whole blog post about this with in-depth overview later. But you already can use it by selecting “Synthesizer” sound in the sounds menu.</p>
-
-
-
-      <br>
-
-      <a href="/piano3d-version-1dot1-released/" class="continue-reading">
-        Continue reading
-      </a>
-    </div>
-  </article>
-  
-
-  <article class="post container col-10 col-md-6 p-4 mb-5">
-    <h1 class="post-title">
-      <a href="/piano3d-development-diary-episode2-keyboard-colors/">
-        PIANO 3D DEVELOPMENT DIARY - EPISODE 2: KEYBOARD COLORS
-      </a>
-    </h1>
-    <div class="mb-3">
-      <span class="post-date">03 Oct 2018</span>
-    </div>
-
-    <div class="content">
-      <p>As you may have seen, we have some Piano 3D development posts here (check <a href="/piano3d-development-diary-episode1">development diary episode 1</a>). This is second episode in which I add color-changing feature.</p>
-
-<p>Of course, you are encouraged to comment what you think about changing color of the keyboard as well as Piano 3D app in general.</p>
-
-<div class="videowrapper">
-<iframe src="https://www.youtube.com/embed/QvkE91XSvLc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
-</div>
-
-
-
-      <br>
-
-      <a href="/piano3d-development-diary-episode2-keyboard-colors/" class="continue-reading">
-        Continue reading
-      </a>
-    </div>
-  </article>
-  
-
-  <article class="post container col-10 col-md-6 p-4 mb-5">
-    <h1 class="post-title">
-      <a href="/piano3d-development-diary-episode1/">
-        PIANO 3D DEVELOPMENT DIARY - EPISODE 1
-      </a>
-    </h1>
-    <div class="mb-3">
-      <span class="post-date">03 Oct 2018</span>
-    </div>
-
-    <div class="content">
-      <p>I think it’s fun to see how an applciation is created (haven’t you seen Discovery’s “How it is made?”), so here is a speeded up video of Piano 3D development. It shows extending the keyboard to 88 keys, modelling the first “A” key (it’s shape is different) in blender and mixing everything together in Unity 3D and Visual Studio. But you don’t have to understand everything here. Don’t forget to subscribe to <a href="https://www.youtube.com/channel/UC9MOkgEEoZUGpnM8B3MsYeA">Piano 3D youtube channel</a>.</p>
-
-<div class="videowrapper">
-<iframe src="https://www.youtube.com/embed/gko9AnC7z3E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
-</div>
-
-
-
-      <br>
-
-      <a href="/piano3d-development-diary-episode1/" class="continue-reading">
-        Continue reading
-      </a>
-    </div>
-  </article>
-  
-
-  <article class="post container col-10 col-md-6 p-4 mb-5">
-    <h1 class="post-title">
-      <a href="/piano-3d-blog-is-now-live/">
-        PIANO 3D BLOG IS NOW LIVE!
-      </a>
-    </h1>
-    <div class="mb-3">
-      <span class="post-date">26 Sep 2018</span>
-    </div>
-
-    <div class="content">
-      <p>Hi! We have launched new Piano 3D blog. Yay! I used to blog about Piano 3D in my <a href="https://sikilinda.com">development blog</a>, but I realized that there is much more information I could share with you, and it is not limited to the development process only. That is why, as an addition to Piano 3D social media (<a href="https://facebook.com/piano3d">Facebook</a>, <a href="https://instagram.com/piano3dapp">Instagram</a>, <a href="https://twitter.com/piano3d">Twitter</a>, <a href="https://www.youtube.com/channel/UC9MOkgEEoZUGpnM8B3MsYeA">YouTube</a>) we now have this place.</p>
-
-<p>I would really like to build a community around Piano 3D, and I believe this place is essential for achieving this goal. But this blog will not be dedicated to Piano 3D entirely. In fact, I want it to be about piano and music in general. We are going to discuss very old classical music as well as new pop songs, classical instruments and new fancy synthesizers, ADSR filters and music theory. And, of course, we will not forget about Piano 3D.</p>
-
-<p>I am very excited about this! Aren’t you?</p>
-
-
-      <br>
-
-      <a href="/piano-3d-blog-is-now-live/" class="continue-reading">
-        Continue reading
-      </a>
-    </div>
-  </article>
-  
-</div>
+  {% endfor %}
+</main>
 
 <div class="container pagination justify-content-center">
+  <div class="col-6 col-md-4 text-center">
+    {% if paginator.next_page %}
+    <a class="pagination-item older" href="/page{{paginator.next_page}}"
+      >Older</a
+    >
+    {% else %}
+    <span class="pagination-item older">Older</span>
+    {% endif %}
+  </div>
 
   <div class="col-6 col-md-4 text-center">
-    
-    <span class="pagination-item older">Older</span>
-    
-  </div>
-
-  <div class="col-6  col-md-4 text-center">
-    
+    {% if paginator.previous_page %} {% if paginator.page == 2 %}
+    <a class="pagination-item newer" href="/">Newer</a>
+    {% else %}
+    <a class="pagination-item newer" href="/page{{paginator.previous_page}}"
+      >Newer</a
+    >
+    {% endif %} {% else %}
     <span class="pagination-item newer">Newer</span>
-    
+    {% endif %}
   </div>
-
 </div>
-
-      <footer class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
-	<div class="navbar-nav-scroll">
-		<ul class="navbar-nav bd-navbar-nav flex-row">
-			<li class="nav-item">
-				<a class="nav-link" href="https://twitter.com/piano3d" target="_blank" rel="noopener" aria-label="GitHub">
-					<img src="/public/images/twitter.png" class="smm-icon">
-				</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="https://www.facebook.com/piano3d" target="_blank" rel="noopener" aria-label="Twitter">
-					<img src="/public/images/facebook.png" class="smm-icon">
-				</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="https://www.youtube.com/channel/UC9MOkgEEoZUGpnM8B3MsYeA" target="_blank" rel="noopener" aria-label="Twitter">
-					<img src="/public/images/youtube.png" class="smm-icon">
-				</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="https://www.instagram.com/piano3dapp/" target="_blank" rel="noopener" aria-label="Twitter">
-					<img src="/public/images/instagram.png" class="smm-icon">
-				</a>
-			</li>
-		</ul>
-	</div>
-	<ul class="navbar-nav flex-row ml-md-auto d-md-flex">
-		<li class="nav-item">
-			<a class="nav-link footer-text" href="mailto:info@piano3d.com" target="_blank" rel="noopener">
-				info@piano3d.com
-			</a>
-		</li>
-		
-		<li class="nav-item">
-			<a class="nav-link footer-text" href="/pressKit/" rel="noopener">
-				Press Kit
-			</a>
-		</li>
-		<li class="nav-item">
-			<a class="nav-link footer-text" href="/privacyPolicy/" rel="noopener">
-				Privacy Policy
-			</a>
-		</li>
-		
-	</ul>
-	<ul class="navbar-nav flex-row ml-md-auto d-md-flex footer-text">
-		
-		
-		<li class="nav-item">
-			<a class="nav-link" href="https://piano3d.com/blog/">EN</a>
-		</li>
-		<li class="nav-item">
-			<a class="nav-link" href="https://piano3d.com/ru/blog/">RU</a>
-		</li>
-		
-		
-	</ul>
-</footer>
-  </body>
-</html>

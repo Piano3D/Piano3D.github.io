@@ -1,326 +1,102 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-118775151-1"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-      gtag("config", "UA-118775151-1");
-    </script>
+layout: default
+---
 
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-
-    <title>Piano 3D - a piano app for iOS, Android and Windows</title>
-
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
-      integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
-      integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Signika+Negative"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="/assets/css/privacyPolicy.css"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="/public/images/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="/public/images/favicon-16x16.png"
-    />
-
-    <meta
-      name="keywords"
-      content="Piano,piano3d,Android,iOS,iPhone,Sound,Music,Guitar,Sax,Notes,Tutorials,Download"
-    />
-    <meta
-      name="description"
-      content="Official site of Piano 3D mobile application. Practice, learn new songs, sing along and just have fun with Piano 3D on your iOS or Android device."
-    />
-
-    <link rel="canonical" href="https://piano3d.com/" />
-
-    <link rel="alternate" hreflang="en" href="/" />
-
-    <link rel="alternate" hreflang="ru" href="/ru/" />
-  </head>
-
-  <body>
-    <header
-      class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar"
-    >
-      <a class="navbar-brand mr-0 mr-md-2" href="/">
-        <img src="/public/images/logo.png" class="logo" />
-      </a>
-      <div class="navbar-nav-scroll">
-        <ul class="navbar-nav bd-navbar-nav flex-row">
-          <li class="nav-item">
-            <a class="nav-link" href="/windows" rel="noopener">Windows</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="/blog" rel="noopener">Blog</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="/help" rel="noopener">Help</a>
-          </li>
-        </ul>
+<div class="grid-container">
+  <div class="grid-item grid-main">
+    <div class="d-flex flex-column h-100">
+      <div class="mb-2 d-flex flex-row">
+        <div class="widget-text">Windows</div>
       </div>
-
-      <ul class="navbar-nav flex-row ml-md-auto d-md-flex">
-        <li class="nav-item">
+      <div class="d-flex flex-row mt-auto">
+        <div class="widget-text">
+          The all-in-one piano application for Windows devices. Play at home on
+          your PC or anywhere on your laptop, tablet or phone.
           <a
-            class="nav-link"
-            href="https://itunes.apple.com/us/app/piano-3d/id1402994766?ls=1&amp;mt=8"
-            target="_blank"
-            rel="noopener"
-            onclick="gtag('event', 'appStoreClick');"
-          >
-            <img src="/public/images/appStore.png" class="logo" />
-          </a>
-        </li>
-        <li class="nav-item">
-          <a
-            class="nav-link"
-            href="https://play.google.com/store/apps/details?id=com.MobilrKingdom.Piano3D"
-            target="_blank"
-            rel="noopener"
-            onclick="gtag('event', 'playStoreClick');"
-          >
-            <img
-              src="/public/images/googleStore.png"
-              class="logo"
-              onclick="gtag('event', 'googleStoreClick');"
-            />
-          </a>
-        </li>
-
-        <li class="nav-item">
-          <a
-            class="nav-link"
             href="https://apps.microsoft.com/store/detail/piano-3d/9WZDNCRDCWVN"
-            target="_blank"
-            rel="noopener"
-            onclick="gtag('event', 'playStoreClick');"
+            >Download Piano 3D for Windows</a
           >
-            <img
-              src="/public/images/windowsStore.png"
-              class="logo"
-			  alt="windows store"
-              onclick="gtag('event', 'windowsStoreClick');"
-            />
-          </a>
-        </li>
-      </ul>
-    </header>
-
-    <div class="container">
-      <div class="row justify-content-center" id="mainContent">
-        <div class="col-11 col-sm-10 description">
-          <div class="row mb-5">
-            <div class="col-12 col-sm-6">
-              <img
-                class="img-fluid"
-                src="/public/images/MainScreen2.png"
-                alt="piano 3d main screen iphone"
-              />
-            </div>
-            <div
-              class="col-12 col-sm-6 align-self-center text-center text-sm-left"
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="grid-item">
+    <div class="d-flex flex-column h-100">
+      <div class="mt-auto mb-auto">
+        <p>
+          Piano 3D is usefull both for new players and experience musicians.
+        </p>
+        <p>
+          Use built-in tutorials to learn how to play your national anthem, or
+          favourite tune. Refresh your music theory knowledge. Improvise
+          something on the go.
+        </p>
+        <p>
+          Or just have fun with changing keyboard colors to something unusual.
+        </p>
+        <a href="https://piano3d.com">Piano 3D features</a>
+      </div>
+    </div>
+  </div>
+  <div class="grid-item">
+    <div class="d-flex flex-column justify-content-between h-100">
+      <div>iOs</div>
+      <div class="d-flex justify-content-center">
+        <img
+          class="main-page-store-logo"
+          src="/public/images/mainPage/appleLogo.png"
+          alt="apple logo"
+        />
+      </div>
+      <div>
+        <a href="https://apps.apple.com/us/app/piano-3d/id1402994766?ls=1"
+          >Download Piano 3D for iOs</a
+        >
+      </div>
+    </div>
+  </div>
+  <div class="grid-item">
+    <div class="d-flex flex-column justify-content-between h-100">
+      <div>Android</div>
+      <div class="d-flex justify-content-center">
+        <img
+          class="main-page-store-logo"
+          src="/public/images/mainPage/androidLogo.png"
+          alt="apple logo"
+        />
+      </div>
+      <div>
+        <a
+          href="https://play.google.com/store/apps/details?id=com.MobilrKingdom.Piano3D"
+          >Download Piano 3D for Android</a
+        >
+      </div>
+    </div>
+  </div>
+  <div class="grid-item grid-item-light">
+    <div class="d-flex flex-column h-100">
+      <div class="mb-2 d-flex flex-row">
+        <div class="widget-text">Recent Blogs</div>
+      </div>
+      <div class="mt-auto d-flex flex-column">
+        <div class="d-flex flex-row mb-2">
+          <div class="widget-text">
+            <a href="https://piano3d.com/windows"
+              >Three- and four-finger touch interactions on Windows 11</a
             >
-              <h1>Piano 3D</h1>
-              <p>
-                A piano app with full size, 88-keys keyboard which you can
-                scroll, scale and, obviously, play.
-              </p>
-            </div>
           </div>
-
-          <div class="row mb-5">
-            <div
-              class="col-12 col-sm-6 align-self-center text-right order-2 order-sm-1 text-center text-sm-right"
+        </div>
+        <div class="d-flex flex-row">
+          <div class="widget-text">
+            <a href="https://piano3d.com/windows"
+              >Piano 3D version 4.2 released for Windows!</a
             >
-              <h2>Piano tutorials</h2>
-              <p>
-                Learn and practice your favorites melodies, including pop and
-                rock songs, national anthems, movies soundtracks or even some
-                jazz.
-              </p>
-            </div>
-            <div class="col-12 col-sm-6 order-1 order-sm-2">
-              <img
-                class="img-fluid"
-                src="/public/images/songs-menu.png"
-                alt="piano 3d songs menu"
-              />
-            </div>
-          </div>
-
-          <div class="row mb-5">
-            <div class="col-12 col-sm-6">
-              <img
-                class="img-fluid"
-                src="/public/images/settingsMenu.png"
-                alt="piano 3d settings menu"
-              />
-            </div>
-            <div
-              class="col-12 col-sm-6 align-self-center text-center text-sm-left"
-            >
-              <h2>Settings</h2>
-              <p>
-                Switch between 2D and 3D mode, display and hide the notes names
-                and change keys color.
-              </p>
-            </div>
-          </div>
-
-          <div class="row">
-            <div
-              class="col-12 col-sm-6 align-self-center text-right order-2 order-sm-1 text-center text-sm-right"
-            >
-              <h2>Get the app</h2>
-              <p>
-                Download <i>Piano 3D</i> on your iPhone or Android device from
-                <a
-                  href="https://itunes.apple.com/us/app/piano-3d/id1402994766?ls=1&amp;mt=8"
-                  >Apple AppStore</a
-                >
-                or
-                <a
-                  href="https://play.google.com/store/apps/details?id=com.MobilrKingdom.Piano3D"
-                  >Google PlayStore</a
-                >.
-              </p>
-            </div>
-            <div class="col-12 col-sm-6 order-1 order-sm-2">
-              <img
-                class="img-fluid"
-                src="/public/images/sounds-menu.png"
-                alt="piano 3d sound selection menu"
-              />
-            </div>
           </div>
         </div>
       </div>
     </div>
-
-    <footer
-      class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar"
-    >
-      <div class="navbar-nav-scroll">
-        <ul class="navbar-nav bd-navbar-nav flex-row">
-          <li class="nav-item">
-            <a
-              class="nav-link"
-              href="https://twitter.com/piano3d"
-              target="_blank"
-              rel="noopener"
-              aria-label="GitHub"
-            >
-              <img src="/public/images/twitter.png" class="smm-icon" />
-            </a>
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link"
-              href="https://www.facebook.com/piano3d"
-              target="_blank"
-              rel="noopener"
-              aria-label="Twitter"
-            >
-              <img src="/public/images/facebook.png" class="smm-icon" />
-            </a>
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link"
-              href="https://www.youtube.com/channel/UC9MOkgEEoZUGpnM8B3MsYeA"
-              target="_blank"
-              rel="noopener"
-              aria-label="Twitter"
-            >
-              <img src="/public/images/youtube.png" class="smm-icon" />
-            </a>
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link"
-              href="https://www.instagram.com/piano3dapp/"
-              target="_blank"
-              rel="noopener"
-              aria-label="Twitter"
-            >
-              <img src="/public/images/instagram.png" class="smm-icon" />
-            </a>
-          </li>
-        </ul>
-      </div>
-      <ul class="navbar-nav flex-row ml-md-auto d-md-flex">
-        <li class="nav-item">
-          <a
-            class="nav-link footer-text"
-            href="mailto:info@piano3d.com"
-            target="_blank"
-            rel="noopener"
-          >
-            info@piano3d.com
-          </a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link footer-text" href="/pressKit/" rel="noopener">
-            Press Kit
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link footer-text" href="/privacyPolicy/" rel="noopener">
-            Privacy Policy
-          </a>
-        </li>
-      </ul>
-      <ul class="navbar-nav flex-row ml-md-auto d-md-flex footer-text">
-        <li class="nav-item">
-          <a class="nav-link" href="https://piano3d.com/">EN</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://piano3d.com/ru">RU</a>
-        </li>
-      </ul>
-    </footer>
-  </body>
-</html>
+  </div>
+</div>
