@@ -5,98 +5,132 @@
 layout: default
 ---
 
-<div class="grid-container">
-  <div class="grid-item grid-main">
-    <div class="d-flex flex-column h-100">
-      <div class="mb-2 d-flex flex-row">
-        <div class="widget-text">Windows</div>
-      </div>
-      <div class="d-flex flex-row mt-auto">
-        <div class="widget-text">
-          The all-in-one piano application for Windows devices. Play at home on
-          your PC or anywhere on your laptop, tablet or phone.
-          <a
-            href="https://apps.microsoft.com/store/detail/piano-3d/9WZDNCRDCWVN"
-            >Download Piano 3D for Windows</a
-          >
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="grid-item">
-    <div class="d-flex flex-column h-100">
-      <div class="mt-auto mb-auto">
-        <p>
-          Piano 3D is usefull both for new players and experience musicians.
-        </p>
-        <p>
-          Use built-in tutorials to learn how to play your national anthem, or
-          favourite tune. Refresh your music theory knowledge. Improvise
-          something on the go.
-        </p>
-        <p>
-          Or just have fun with changing keyboard colors to something unusual.
-        </p>
-        <a href="https://piano3d.com">Piano 3D features</a>
-      </div>
-    </div>
-  </div>
-  <div class="grid-item">
-    <div class="d-flex flex-column justify-content-between h-100">
-      <div>iOs</div>
-      <div class="d-flex justify-content-center">
-        <img
-          class="main-page-store-logo"
-          src="/public/images/mainPage/appleLogo.png"
-          alt="apple logo"
-        />
-      </div>
-      <div>
-        <a href="https://apps.apple.com/us/app/piano-3d/id1402994766?ls=1"
-          >Download Piano 3D for iOs</a
+<div
+  class="download-box d-flex flex-row justify-content-center align-items-center mb-5"
+>
+  <div class="p-5 w-50">
+    <div class="p-5">
+      <h1>Piano 3D</h1>
+
+      <p class="mt-5">
+        The best free piano app for Windows. Enjoy realistic piano keyboard on
+        your tablet, PC or laptop - use your fingers, mouse, keyboard or even
+        external MIDI device to play, compose and learn piano!
+      </p>
+      <div class="mt-5">
+        <script
+          type="module"
+          src="https://get.microsoft.com/badge/ms-store-badge.bundled.js"
+        ></script>
+        <ms-store-badge
+          productid="9WZDNCRDCWVN"
+          window-mode="full"
+          language="en"
         >
+        </ms-store-badge>
       </div>
     </div>
   </div>
-  <div class="grid-item">
-    <div class="d-flex flex-column justify-content-between h-100">
-      <div>Android</div>
-      <div class="d-flex justify-content-center">
-        <img
-          class="main-page-store-logo"
-          src="/public/images/mainPage/androidLogo.png"
-          alt="apple logo"
-        />
+  <div class="main-screen w-50 align-self-stretch"></div>
+</div>
+
+<div
+  class="main-screen-section d-flex flex-column align-items-center justify-content-center my-5"
+>
+  <div>
+    <h2>Built-In Sounds</h2>
+  </div>
+
+  <div class="grid-container w-100">
+    <div class="grid-item">
+      <div
+        class="d-flex flex-column h-100 justify-content-center align-items-center h-100"
+      >
+        <div class="my-3">
+          <img
+            src="/public/images/instrumentIcons/PianoIcon.png"
+            alt="Piano 3D piano instrument icon"
+          />
+        </div>
+        <div><h3>Piano</h3></div>
       </div>
-      <div>
-        <a
-          href="https://play.google.com/store/apps/details?id=com.MobilrKingdom.Piano3D"
-          >Download Piano 3D for Android</a
-        >
+    </div>
+
+    <div class="grid-item">
+      <div
+        class="d-flex flex-column h-100 justify-content-center align-items-center h-100"
+      >
+        <div class="my-3">
+          <img
+            src="/public/images/instrumentIcons/GuitarIcon.png"
+            alt="Piano 3D guitar instrument icon"
+          />
+        </div>
+        <div><h3>Guitar</h3></div>
+      </div>
+    </div>
+
+    <div class="grid-item">
+      <div
+        class="d-flex flex-column h-100 justify-content-center align-items-center h-100"
+      >
+        <div class="my-3">
+          <img
+            src="/public/images/instrumentIcons/SaxIcon.png"
+            alt="Piano 3D sax instrument icon"
+          />
+        </div>
+        <div><h3>Sax</h3></div>
+      </div>
+    </div>
+
+    <div class="grid-item">
+      <div
+        class="d-flex flex-column h-100 justify-content-center align-items-center h-100"
+      >
+        <div class="my-3">
+          <img
+            src="/public/images/instrumentIcons/instruments-ic-synth.png"
+            alt="Piano 3D synthesizer instrument icon"
+          />
+        </div>
+        <div><h3>Synthesizer</h3></div>
+      </div>
+    </div>
+
+    <div class="grid-item">
+      <div
+        class="d-flex flex-column h-100 justify-content-center align-items-center h-100"
+      >
+        <div class="my-3">
+          <img
+            class="sound-icon"
+            src="/public/images/instrumentIcons/Midi.png"
+            alt="Piano 3D midi icon"
+          />
+        </div>
+        <div><h3>Any MIDI device</h3></div>
       </div>
     </div>
   </div>
-  <div class="grid-item grid-item-light">
-    <div class="d-flex flex-column h-100">
-      <div class="mb-2 d-flex flex-row">
-        <div class="widget-text">Recent Blogs</div>
-      </div>
-      <div class="mt-auto d-flex flex-column">
-        <div class="d-flex flex-row mb-2">
-          <div class="widget-text">
-            <a href="https://piano3d.com/windows"
-              >Three- and four-finger touch interactions on Windows 11</a
-            >
-          </div>
-        </div>
-        <div class="d-flex flex-row">
-          <div class="widget-text">
-            <a
-              href="https://piano3d.com/piano-3d-version-4-3-released-for-windows/"
-              >Piano 3D version 4.3 released for Windows!</a
-            >
-          </div>
-        </div>
+</div>
+
+<div
+  class="download-box d-flex flex-row justify-content-center align-items-center mb-5"
+>
+  <div class="main-screen-music-theory w-50 align-self-stretch"></div>
+
+  <div class="p-5 w-50">
+    <div class="p-5">
+      <h1>Music Theory</h1>
+
+      <p class="mt-5">
+        Piano 3D is perfect for learning music theory. Historically piano
+        keybaord is always used to teach notes and notation, now it's even
+        better with virtual Piano 3D!
+      </p>
+      <div class="mt-5">
+        <a href="/blog">Learn more in our blog ></a>
       </div>
     </div>
   </div>
